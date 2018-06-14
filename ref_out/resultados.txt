@@ -1,0 +1,22 @@
+Tablero de: 2x2
+-----------------
+Tiempo: 4.81 segundos
+La cantidad de lineas de su respuesta es correcta
+Su respuesta hace match con la nuestra (es igual)
+All Ok
+
+
+Tablero de: 3x3
+-----------------
+Tiempo: 12.97 segundos
+La cantidad de lineas de su respuesta es correcta
+Su respuesta hace match con la nuestra (es igual)
+All Ok
+
+
+Tablero de: 5x2
+-----------------
+Tiempo: 124.15 segundos
+La cantidad de lineas de su respuesta es correcta
+Su respuesta hace match con la nuestra (es igual)
+All Ok

@@ -1,0 +1,19 @@
+TEST REDUCE
+
+tuples = [("abc-", 4), ("ab-c", 4), ("abc-", 1)]
+
+rdd_tuples = sc.parallelize(tuples)
+
+reduced_tupes = rdd_tuples.reduceByKey(lambda a, b: a if a < b else b)
+
+reduced_tupes.collect()
+
+OUTPUT:
+
+[('abc-', 1), ('ab-c', 4)]
+
+
+"""
+Recorre las tuplas y deja solamente la del nivel mas bajo (de 0 a n)
+para evitar posiciones duplicadas.
+"""
