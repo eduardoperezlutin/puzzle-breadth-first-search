@@ -1,2 +1,3 @@
-# pj3-2018-base
-Archivos base para proyecto 3.
+# Implementation of Breadth First Search algorithm with Python Spark
+
+Implement the BFS algorithm with pyspark for a Sliding Puzzle Game.
